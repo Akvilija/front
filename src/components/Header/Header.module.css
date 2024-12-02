@@ -1,0 +1,29 @@
+.headerColor {
+    background-color: #333;
+    padding: 20px;
+  }
+
+.navigationStyle ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.navigationStyle a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navigationStyle a:hover {
+    background-color: #555;
+}
+
+.navigationStyle .activeLink {
+    color: yellow;
+    font-weight: bold;
+    border-bottom: 2px solid yellow;
+  }
